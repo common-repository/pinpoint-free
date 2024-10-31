@@ -1,0 +1,69 @@
+.ecommerce-pin {
+  visibility: hidden;
+  max-width: 150px;
+  min-width: 150px;
+  opacity: 0.9;
+  border-bottom: 2px solid currentColor;
+  text-decoration: none;
+  padding: 2px 4px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  animation: none !important;
+  /* Theming */
+  /* Shapes */
+  /* Active state */ }
+  .ecommerce-pin__bullet {
+    animation: none !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    border: 2px solid white;
+    background: currentColor;
+    -moz-box-shadow: 0px 0px 0px 1px currentColor;
+    -webkit-box-shadow: 0px 0px 0px 1px currentColor;
+    box-shadow: 0px 0px 0px 1px currentColor;
+    padding: 3px;
+    visibility: visible;
+    cursor: pointer;
+    box-sizing: border-box;
+    white-space: nowrap; }
+  .ecommerce-pin__price {
+    display: block;
+    font-weight: bold; }
+  .ecommerce-pin__stamp {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.60em; }
+  .ecommerce-pin__stamp > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .ecommerce-pin__label {
+    color: white; }
+  .ecommerce-pin_light {
+    background-color: #EBEBEB;
+    color: #333; }
+  .ecommerce-pin_light .ecommerce-pin__label,
+  .ecommerce-pin_light .ecommerce-pin__price {
+    color: #333; }
+  .ecommerce-pin_dark {
+    background-color: #333;
+    color: #EBEBEB; }
+  .ecommerce-pin_dark .ecommerce-pin__label,
+  .ecommerce-pin_dark .ecommerce-pin__price {
+    color: #EBEBEB; }
+  .ecommerce-pin__bullet_circle {
+    border-radius: 50%; }
+  .ecommerce-pin__bullet_square {
+    border-radius: 0; }
+  .ecommerce-pin_active {
+    visibility: visible;
+    z-index: 15; }
+  .ecommerce-pin_active .ecommerce-pin__bullet {
+    display: none; }

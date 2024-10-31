@@ -1,0 +1,101 @@
+.control-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0.9;
+  border-bottom: 2px solid currentColor;
+  background-color: #333;
+  text-decoration: none;
+  padding: 2px 4px;
+  border-radius: 5px;
+  /* Theming */
+  /* Shapes */
+  /* Active state */ }
+  .control-pin__bullet {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    border: 2px solid white;
+    background: currentColor;
+    -moz-box-shadow: 0px 0px 0px 1px currentColor;
+    -webkit-box-shadow: 0px 0px 0px 1px currentColor;
+    box-shadow: 0px 0px 0px 1px currentColor;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 3px;
+    visibility: visible;
+    box-sizing: border-box;
+    z-index: 2;
+    cursor: move; }
+  .control-pin__stamp {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.60em;
+    z-index: 3; }
+  .control-pin__stamp > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .control-pin__html {
+    color: white; }
+  .control-pin_highlight .control-pin__bullet {
+    border: 2px solid red; }
+  .control-pin_light {
+    background-color: #EBEBEB;
+    color: #333; }
+  .control-pin_light .control-pin__html {
+    color: #333; }
+  .control-pin_dark {
+    background-color: #333;
+    color: #EBEBEB; }
+  .control-pin_dark .control-pin__html {
+    color: #EBEBEB; }
+  .control-pin_circle .control-pin__bullet {
+    border-radius: 50%; }
+  .control-pin_square .control-pin__bullet {
+    border-radius: 0; }
+  .control-pin_active {
+    visibility: visible;
+    z-index: 5; }
+  .control-pin_active .control-pin__bullet {
+    display: none; }
+
+.smart-autocomplete {
+  width: 100%;
+  position: relative; }
+  .smart-autocomplete__list {
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    list-style: none;
+    overflow-y: scroll;
+    width: 100%;
+    max-height: 200px;
+    margin: 0;
+    transform: translateY(100%);
+    background-color: white;
+    border: 1px solid grey; }
+  .smart-autocomplete__list-item {
+    padding: 2px 2px 2 4px; }
+  .smart-autocomplete__list-item:hover {
+    background-color: lightgoldenrodyellow; }
+
+.pinner img::selection {
+  background: transparent; }
+
+.pinner img::-moz-selection {
+  background: transparent; }
+
+.pinner .control-pin__stamp::selection {
+  background: transparent; }
+
+.pinner .control-pin__stamp::-moz-selection {
+  background: transparent; }

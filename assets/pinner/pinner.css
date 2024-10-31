@@ -1,0 +1,73 @@
+.pinner {
+  display: inline-block;
+  max-width: 100% !important;
+  position: relative; }
+  .pinner__image {
+    width: 100% !important;
+    z-index: 5; }
+  .pinner__pin {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10; }
+
+.link-pin {
+  visibility: hidden;
+  max-width: 150px;
+  min-width: 100px;
+  opacity: 0.9;
+  border-bottom: 2px solid currentColor;
+  text-decoration: none;
+  padding: 2px 4px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  /* Theming */
+  /* Shapes */
+  /* Active state */ }
+  .link-pin__bullet {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    border: 2px solid white;
+    background: currentColor;
+    -moz-box-shadow: 0px 0px 0px 1px currentColor;
+    -webkit-box-shadow: 0px 0px 0px 1px currentColor;
+    box-shadow: 0px 0px 0px 1px currentColor;
+    padding: 3px;
+    visibility: visible;
+    cursor: pointer;
+    box-sizing: border-box; }
+  .link-pin__stamp {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.60em; }
+  .link-pin__stamp > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .link-pin__label {
+    color: white; }
+  .link-pin_light {
+    background-color: #EBEBEB;
+    color: #333; }
+  .link-pin_light .link-pin__label {
+    color: #333; }
+  .link-pin_dark {
+    background-color: #333;
+    color: #EBEBEB; }
+  .link-pin_dark .link-pin__label {
+    color: #EBEBEB; }
+  .link-pin__bullet_circle {
+    border-radius: 50%; }
+  .link-pin__bullet_square {
+    border-radius: 0; }
+  .link-pin_active {
+    visibility: visible;
+    z-index: 5; }
+  .link-pin_active .link-pin__bullet {
+    display: none; }

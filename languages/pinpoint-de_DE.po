@@ -1,0 +1,205 @@
+# Copyright (C) 2020 Justinas B.
+# This file is distributed under the same license as the Pinpoint Free plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pinpoint Free 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pinpoint-free\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-08T14:31:50+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: pinpoint\n"
+
+#. Plugin Name of the plugin
+msgid "Pinpoint Free"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://pinpoint.generalsemantics.lt/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add interactive clickable color pins ontop of your photos."
+msgstr "Fügen Sie Fotos interaktive Markierungen hinzu."
+
+#. Author of the plugin
+msgid "Justinas B."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://just.beinorius.lt/"
+msgstr ""
+
+#: dist/pinpoint.client.js:119
+#: dist/pinpoint.editor.js:1199
+msgid "(no content)"
+msgstr "(kein Inhalt)"
+
+#: dist/pinpoint.editor.js:288
+msgid "Pin color"
+msgstr "Markierungsfarbe"
+
+#: dist/pinpoint.editor.js:310
+msgid "Stamp color"
+msgstr "Markiertextfarbe"
+
+#: dist/pinpoint.editor.js:333
+#: dist/pinpoint.editor.js:344
+msgid "Stamp"
+msgstr "Stempel"
+
+#: dist/pinpoint.editor.js:353
+#: dist/pinpoint.editor.js:366
+msgid "Link"
+msgstr "Verknüpfung"
+
+#: dist/pinpoint.editor.js:375
+msgid "Link target"
+msgstr "Linkziel"
+
+#: dist/pinpoint.editor.js:386
+msgid "Default"
+msgstr "Standard"
+
+#: dist/pinpoint.editor.js:389
+msgid "New window"
+msgstr "Neues Fenster"
+
+#: dist/pinpoint.editor.js:399
+msgid "Trigger"
+msgstr "Auslöser"
+
+#: dist/pinpoint.editor.js:410
+msgid "Hover"
+msgstr "Schweben"
+
+#: dist/pinpoint.editor.js:413
+msgid "Click"
+msgstr "Klicken"
+
+#: dist/pinpoint.editor.js:423
+#: dist/pinpoint.editor.js:436
+msgid "Price"
+msgstr "Preis"
+
+#: dist/pinpoint.editor.js:445
+#: dist/pinpoint.editor.js:458
+msgid "Label"
+msgstr "Etikette"
+
+#: dist/pinpoint.editor.js:467
+msgid "Size"
+msgstr "Größe"
+
+#: dist/pinpoint.editor.js:495
+msgid "Find"
+msgstr "Finden"
+
+#: dist/pinpoint.editor.js:543
+msgid "Source"
+msgstr "Quelle"
+
+#: dist/pinpoint.editor.js:552
+msgid "Custom"
+msgstr "Handbuch"
+
+#: dist/pinpoint.editor.js:555
+msgid "Product"
+msgstr "Produkt"
+
+#: dist/pinpoint.editor.js:558
+msgid "Post"
+msgstr "Post"
+
+#: dist/pinpoint.editor.js:561
+msgid "Page"
+msgstr "Seite"
+
+#: dist/pinpoint.editor.js:564
+msgid "Category"
+msgstr "Kategorie"
+
+#: dist/pinpoint.editor.js:574
+msgid "Shape"
+msgstr "Form"
+
+#: dist/pinpoint.editor.js:583
+msgid "Circle"
+msgstr "Kreis"
+
+#: dist/pinpoint.editor.js:586
+msgid "Square"
+msgstr "Quadrat"
+
+#: dist/pinpoint.editor.js:596
+msgid "Theme"
+msgstr "Thema"
+
+#: dist/pinpoint.editor.js:607
+msgid "Light"
+msgstr "Helle"
+
+#: dist/pinpoint.editor.js:610
+msgid "Dark"
+msgstr "Dunkel"
+
+#: dist/pinpoint.editor.js:617
+msgid "Pin settings"
+msgstr "Markereinstellungen"
+
+#: dist/pinpoint.editor.js:624
+msgid "Pin style"
+msgstr "Markierungsstil"
+
+#: dist/pinpoint.editor.js:631
+msgid "Pin delete"
+msgstr "Marker löschen"
+
+#: dist/pinpoint.editor.js:636
+msgid "Delete"
+msgstr "Löschen"
+
+#: dist/pinpoint.editor.js:644
+msgid "Choose a pin to edit."
+msgstr "Markierung auswählen."
+
+#: dist/pinpoint.editor.js:1185
+msgid "FREE version limit reached. Buy pro for unlimited pins."
+msgstr "Versionslimit erreicht! Kaufen Sie die Pro-Version für unbegrenzten Marker."
+
+#: dist/pinpoint.editor.js:1214
+msgid "Are you sure?"
+msgstr "Bist du sicher?"
+
+#: dist/pinpoint.editor.js:1232
+msgid "Clear"
+msgstr "Löschen"
+
+#: dist/pinpoint.editor.js:1242
+msgid "Add pin"
+msgstr "Marker hinzufügen"
+
+#: dist/pinpoint.editor.js:1257
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: dist/pinpoint.editor.js:1470
+msgid "Pinpoint image"
+msgstr "Pinpoint Bild"
+
+#: dist/pinpoint.editor.js:1475
+msgid "marker"
+msgstr ""
+
+#: dist/pinpoint.editor.js:1475
+msgid "pin"
+msgstr ""
+
+#: dist/pinpoint.editor.js:1475
+msgid "photo"
+msgstr ""
